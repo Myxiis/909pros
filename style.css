@@ -101,6 +101,33 @@ img { max-width: 100%; display: block; }
 }
 .nav-links .btn-nav:hover { background: var(--orange-dark); }
 
+/* Cities dropdown */
+.nav-dropdown { position: relative; }
+.nav-dropdown-toggle { cursor: pointer; }
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  background: var(--navy-dark);
+  border-radius: var(--radius);
+  min-width: 160px;
+  box-shadow: var(--shadow-lg);
+  z-index: 200;
+  list-style: none;
+  padding: 6px 0;
+}
+.nav-dropdown-menu li a {
+  display: block;
+  padding: 8px 16px;
+  color: rgba(255,255,255,.85);
+  font-size: .9rem;
+  border-radius: 0;
+  white-space: nowrap;
+}
+.nav-dropdown-menu li a:hover { background: rgba(255,255,255,.1); color: var(--white); }
+.nav-dropdown:hover .nav-dropdown-menu { display: block; }
+
 /* Hamburger (CSS only) */
 .nav-toggle { display: none; }
 .hamburger {
