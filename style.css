@@ -150,7 +150,7 @@ img { max-width: 100%; display: block; }
     color: rgba(255,255,255,0.75);
     border-bottom: 1px solid rgba(255,255,255,0.05);
   }
-  .nav-dropdown-toggle::after { content: ' ▾'; }
+  .nav-dropdown-toggle::after { content: ''; }
   .nav-dropdown.open .nav-dropdown-menu { display: block; }
 }
 
@@ -193,7 +193,7 @@ img { max-width: 100%; display: block; }
   .nav-links a {
     padding: 14px 24px;
     border-radius: 0;
-    border-bottom: 1px solid rgba(255,255,255,.08);
+    border-bottom: none;
   }
   .nav-links .btn-nav {
     margin: 12px 24px;
