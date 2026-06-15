@@ -38,9 +38,9 @@
     // 4. Account > API Keys           -> copy the Public Key
     // 5. Paste all three below.
     // See README.md for the exact template variables to use.
-    EMAILJS_PUBLIC_KEY: "YOUR_PUBLIC_KEY",
-    EMAILJS_SERVICE_ID: "YOUR_SERVICE_ID",
-    EMAILJS_TEMPLATE_ID: "YOUR_TEMPLATE_ID",
+    EMAILJS_PUBLIC_KEY: "ec53tUwT3fEbWvrT1",
+    EMAILJS_SERVICE_ID: "service_5qrv4kt",
+    EMAILJS_TEMPLATE_ID: "kod1lbb",
 
     // ---- Webhook settings (only used if DELIVERY_METHOD = "webhook") -
     // Paste your Zapier "Catch Hook" URL, Make.com webhook, or your
