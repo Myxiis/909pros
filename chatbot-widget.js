@@ -23,7 +23,7 @@
     // ---- Where leads are sent ---------------------------------------
     // The site owner's email. Used in the EmailJS template (see below)
     // and shown in the README instructions.
-    OWNER_EMAIL: "mattheubenny@outlook.com",
+    OWNER_EMAIL: "mattheubenny@outlhook.com",
 
     // ---- Delivery method --------------------------------------------
     // Choose ONE: "emailjs" or "webhook".
@@ -479,7 +479,6 @@
       // These keys must match the variables in your EmailJS template.
       // e.g. template body: "New {{service}} lead in {{city}} from {{name}}…"
       var templateParams = {
-        to_email: payload.owner_email,
         subject: payload.subject,
         service: payload.service,
         city: payload.city,
