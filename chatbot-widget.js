@@ -40,7 +40,7 @@
     // See README.md for the exact template variables to use.
     EMAILJS_PUBLIC_KEY: "ec53tUwT3fEbWvrT1",
     EMAILJS_SERVICE_ID: "service_5qrv4kt",
-    EMAILJS_TEMPLATE_ID: "kod1lbb",
+    EMAILJS_TEMPLATE_ID: "template_ccfadke",
 
     // ---- Webhook settings (only used if DELIVERY_METHOD = "webhook") -
     // Paste your Zapier "Catch Hook" URL, Make.com webhook, or your
